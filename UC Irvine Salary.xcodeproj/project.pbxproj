@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87ACEA0195D4300000E36EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACE9F195D4300000E36EE /* Foundation.framework */; };
+		A87ACEA2195D4300000E36EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA1195D4300000E36EE /* CoreGraphics.framework */; };
+		A87ACEA4195D4300000E36EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA3195D4300000E36EE /* UIKit.framework */; };
+		A87ACEAA195D4300000E36EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87ACEA8195D4300000E36EE /* InfoPlist.strings */; };
+		A87ACEAC195D4300000E36EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACEAB195D4300000E36EE /* main.m */; };
+		A87ACEB0195D4300000E36EE /* UCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACEAF195D4300000E36EE /* UCAppDelegate.m */; };
+		A87ACEB3195D4300000E36EE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87ACEB1195D4300000E36EE /* Main_iPhone.storyboard */; };
+		A87ACEB6195D4300000E36EE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87ACEB4195D4300000E36EE /* Main_iPad.storyboard */; };
+		A87ACEB9195D4300000E36EE /* UCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACEB8195D4300000E36EE /* UCViewController.m */; };
+		A87ACEBB195D4300000E36EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87ACEBA195D4300000E36EE /* Images.xcassets */; };
+		A87ACEC2195D4300000E36EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEC1195D4300000E36EE /* XCTest.framework */; };
+		A87ACEC3195D4300000E36EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACE9F195D4300000E36EE /* Foundation.framework */; };
+		A87ACEC4195D4300000E36EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA3195D4300000E36EE /* UIKit.framework */; };
+		A87ACECC195D4300000E36EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87ACECA195D4300000E36EE /* InfoPlist.strings */; };
+		A87ACECE195D4300000E36EE /* UC_Irvine_SalaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87ACEC5195D4300000E36EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87ACE94195D4300000E36EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87ACE9B195D4300000E36EE;
+			remoteInfo = "UC Irvine Salary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87ACE9C195D4300000E36EE /* UC Irvine Salary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UC Irvine Salary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87ACE9F195D4300000E36EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A87ACEA1195D4300000E36EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A87ACEA3195D4300000E36EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A87ACEA7195D4300000E36EE /* UC Irvine Salary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UC Irvine Salary-Info.plist"; sourceTree = "<group>"; };
+		A87ACEA9195D4300000E36EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87ACEAB195D4300000E36EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87ACEAD195D4300000E36EE /* UC Irvine Salary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UC Irvine Salary-Prefix.pch"; sourceTree = "<group>"; };
+		A87ACEAE195D4300000E36EE /* UCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCAppDelegate.h; sourceTree = "<group>"; };
+		A87ACEAF195D4300000E36EE /* UCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegate.m; sourceTree = "<group>"; };
+		A87ACEB2195D4300000E36EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A87ACEB5195D4300000E36EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A87ACEB7195D4300000E36EE /* UCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCViewController.h; sourceTree = "<group>"; };
+		A87ACEB8195D4300000E36EE /* UCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCViewController.m; sourceTree = "<group>"; };
+		A87ACEBA195D4300000E36EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A87ACEC0195D4300000E36EE /* UC Irvine SalaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UC Irvine SalaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87ACEC1195D4300000E36EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A87ACEC9195D4300000E36EE /* UC Irvine SalaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UC Irvine SalaryTests-Info.plist"; sourceTree = "<group>"; };
+		A87ACECB195D4300000E36EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UC_Irvine_SalaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87ACE99195D4300000E36EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACEA2195D4300000E36EE /* CoreGraphics.framework in Frameworks */,
+				A87ACEA4195D4300000E36EE /* UIKit.framework in Frameworks */,
+				A87ACEA0195D4300000E36EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87ACEBD195D4300000E36EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACEC2195D4300000E36EE /* XCTest.framework in Frameworks */,
+				A87ACEC4195D4300000E36EE /* UIKit.framework in Frameworks */,
+				A87ACEC3195D4300000E36EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87ACE93195D4300000E36EE = {
+			isa = PBXGroup;
+			children = (
+				A87ACEA5195D4300000E36EE /* UC Irvine Salary */,
+				A87ACEC7195D4300000E36EE /* UC Irvine SalaryTests */,
+				A87ACE9E195D4300000E36EE /* Frameworks */,
+				A87ACE9D195D4300000E36EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87ACE9D195D4300000E36EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACE9C195D4300000E36EE /* UC Irvine Salary.app */,
+				A87ACEC0195D4300000E36EE /* UC Irvine SalaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87ACE9E195D4300000E36EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACE9F195D4300000E36EE /* Foundation.framework */,
+				A87ACEA1195D4300000E36EE /* CoreGraphics.framework */,
+				A87ACEA3195D4300000E36EE /* UIKit.framework */,
+				A87ACEC1195D4300000E36EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87ACEA5195D4300000E36EE /* UC Irvine Salary */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACEAE195D4300000E36EE /* UCAppDelegate.h */,
+				A87ACEAF195D4300000E36EE /* UCAppDelegate.m */,
+				A87ACEB1195D4300000E36EE /* Main_iPhone.storyboard */,
+				A87ACEB4195D4300000E36EE /* Main_iPad.storyboard */,
+				A87ACEB7195D4300000E36EE /* UCViewController.h */,
+				A87ACEB8195D4300000E36EE /* UCViewController.m */,
+				A87ACEBA195D4300000E36EE /* Images.xcassets */,
+				A87ACEA6195D4300000E36EE /* Supporting Files */,
+			);
+			path = "UC Irvine Salary";
+			sourceTree = "<group>";
+		};
+		A87ACEA6195D4300000E36EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACEA7195D4300000E36EE /* UC Irvine Salary-Info.plist */,
+				A87ACEA8195D4300000E36EE /* InfoPlist.strings */,
+				A87ACEAB195D4300000E36EE /* main.m */,
+				A87ACEAD195D4300000E36EE /* UC Irvine Salary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87ACEC7195D4300000E36EE /* UC Irvine SalaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */,
+				A87ACEC8195D4300000E36EE /* Supporting Files */,
+			);
+			path = "UC Irvine SalaryTests";
+			sourceTree = "<group>";
+		};
+		A87ACEC8195D4300000E36EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87ACEC9195D4300000E36EE /* UC Irvine SalaryTests-Info.plist */,
+				A87ACECA195D4300000E36EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87ACE9B195D4300000E36EE /* UC Irvine Salary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87ACED1195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine Salary" */;
+			buildPhases = (
+				A87ACE98195D4300000E36EE /* Sources */,
+				A87ACE99195D4300000E36EE /* Frameworks */,
+				A87ACE9A195D4300000E36EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UC Irvine Salary";
+			productName = "UC Irvine Salary";
+			productReference = A87ACE9C195D4300000E36EE /* UC Irvine Salary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87ACEBF195D4300000E36EE /* UC Irvine SalaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87ACED4195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine SalaryTests" */;
+			buildPhases = (
+				A87ACEBC195D4300000E36EE /* Sources */,
+				A87ACEBD195D4300000E36EE /* Frameworks */,
+				A87ACEBE195D4300000E36EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87ACEC6195D4300000E36EE /* PBXTargetDependency */,
+			);
+			name = "UC Irvine SalaryTests";
+			productName = "UC Irvine SalaryTests";
+			productReference = A87ACEC0195D4300000E36EE /* UC Irvine SalaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87ACE94195D4300000E36EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nyquist Labs";
+				TargetAttributes = {
+					A87ACEBF195D4300000E36EE = {
+						TestTargetID = A87ACE9B195D4300000E36EE;
+					};
+				};
+			};
+			buildConfigurationList = A87ACE97195D4300000E36EE /* Build configuration list for PBXProject "UC Irvine Salary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A87ACE93195D4300000E36EE;
+			productRefGroup = A87ACE9D195D4300000E36EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87ACE9B195D4300000E36EE /* UC Irvine Salary */,
+				A87ACEBF195D4300000E36EE /* UC Irvine SalaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87ACE9A195D4300000E36EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACEB6195D4300000E36EE /* Main_iPad.storyboard in Resources */,
+				A87ACEBB195D4300000E36EE /* Images.xcassets in Resources */,
+				A87ACEB3195D4300000E36EE /* Main_iPhone.storyboard in Resources */,
+				A87ACEAA195D4300000E36EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87ACEBE195D4300000E36EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACECC195D4300000E36EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87ACE98195D4300000E36EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACEB0195D4300000E36EE /* UCAppDelegate.m in Sources */,
+				A87ACEAC195D4300000E36EE /* main.m in Sources */,
+				A87ACEB9195D4300000E36EE /* UCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87ACEBC195D4300000E36EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87ACECE195D4300000E36EE /* UC_Irvine_SalaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87ACEC6195D4300000E36EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87ACE9B195D4300000E36EE /* UC Irvine Salary */;
+			targetProxy = A87ACEC5195D4300000E36EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87ACEA8195D4300000E36EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87ACEA9195D4300000E36EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A87ACEB1195D4300000E36EE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87ACEB2195D4300000E36EE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A87ACEB4195D4300000E36EE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87ACEB5195D4300000E36EE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A87ACECA195D4300000E36EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87ACECB195D4300000E36EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87ACECF195D4300000E36EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87ACED0195D4300000E36EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87ACED2195D4300000E36EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
+				INFOPLIST_FILE = "UC Irvine Salary/UC Irvine Salary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A87ACED3195D4300000E36EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
+				INFOPLIST_FILE = "UC Irvine Salary/UC Irvine Salary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A87ACED5195D4300000E36EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UC Irvine Salary.app/UC Irvine Salary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UC Irvine SalaryTests/UC Irvine SalaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A87ACED6195D4300000E36EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UC Irvine Salary.app/UC Irvine Salary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
+				INFOPLIST_FILE = "UC Irvine SalaryTests/UC Irvine SalaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87ACE97195D4300000E36EE /* Build configuration list for PBXProject "UC Irvine Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87ACECF195D4300000E36EE /* Debug */,
+				A87ACED0195D4300000E36EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87ACED1195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87ACED2195D4300000E36EE /* Debug */,
+				A87ACED3195D4300000E36EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A87ACED4195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine SalaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87ACED5195D4300000E36EE /* Debug */,
+				A87ACED6195D4300000E36EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87ACE94195D4300000E36EE /* Project object */;
+}
