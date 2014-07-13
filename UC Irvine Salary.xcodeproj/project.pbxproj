@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14270CCF197346C9003EFDA5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14270CCE197346C9003EFDA5 /* Parse.framework */; };
+		14E55C4919734B1B00A957E2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C4819734B1B00A957E2 /* AudioToolbox.framework */; };
+		14E55C4B19734B2300A957E2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C4A19734B2300A957E2 /* CFNetwork.framework */; };
+		14E55C4D19734B3700A957E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C4C19734B3700A957E2 /* CoreLocation.framework */; };
+		14E55C4F19734B4000A957E2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C4E19734B4000A957E2 /* libz.dylib */; };
+		14E55C5119734B4800A957E2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5019734B4800A957E2 /* MobileCoreServices.framework */; };
+		14E55C5319734B5200A957E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5219734B5200A957E2 /* QuartzCore.framework */; };
+		14E55C5519734B5A00A957E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5419734B5A00A957E2 /* Security.framework */; };
+		14E55C5719734B6F00A957E2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5619734B6F00A957E2 /* StoreKit.framework */; };
+		14E55C5919734B7400A957E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5819734B7400A957E2 /* SystemConfiguration.framework */; };
+		14E55C5B19734B9C00A957E2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55C5A19734B9C00A957E2 /* Parse.framework */; };
 		A87ACEA0195D4300000E36EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACE9F195D4300000E36EE /* Foundation.framework */; };
 		A87ACEA2195D4300000E36EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA1195D4300000E36EE /* CoreGraphics.framework */; };
 		A87ACEA4195D4300000E36EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA3195D4300000E36EE /* UIKit.framework */; };
@@ -35,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14270CCE197346C9003EFDA5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		14E55C4819734B1B00A957E2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14E55C4A19734B2300A957E2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		14E55C4C19734B3700A957E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14E55C4E19734B4000A957E2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		14E55C5019734B4800A957E2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		14E55C5219734B5200A957E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14E55C5419734B5A00A957E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14E55C5619734B6F00A957E2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		14E55C5819734B7400A957E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14E55C5A19734B9C00A957E2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		A87ACE9C195D4300000E36EE /* UC Irvine Salary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UC Irvine Salary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87ACE9F195D4300000E36EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A87ACEA1195D4300000E36EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +84,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E55C5919734B7400A957E2 /* SystemConfiguration.framework in Frameworks */,
+				14E55C5719734B6F00A957E2 /* StoreKit.framework in Frameworks */,
+				14E55C5519734B5A00A957E2 /* Security.framework in Frameworks */,
+				14E55C5319734B5200A957E2 /* QuartzCore.framework in Frameworks */,
+				14E55C5119734B4800A957E2 /* MobileCoreServices.framework in Frameworks */,
+				14E55C4F19734B4000A957E2 /* libz.dylib in Frameworks */,
+				14E55C4D19734B3700A957E2 /* CoreLocation.framework in Frameworks */,
 				A87ACEA2195D4300000E36EE /* CoreGraphics.framework in Frameworks */,
+				14E55C4B19734B2300A957E2 /* CFNetwork.framework in Frameworks */,
+				14E55C4919734B1B00A957E2 /* AudioToolbox.framework in Frameworks */,
+				14E55C5B19734B9C00A957E2 /* Parse.framework in Frameworks */,
+				14270CCF197346C9003EFDA5 /* Parse.framework in Frameworks */,
 				A87ACEA4195D4300000E36EE /* UIKit.framework in Frameworks */,
 				A87ACEA0195D4300000E36EE /* Foundation.framework in Frameworks */,
 			);
@@ -103,6 +136,17 @@
 		A87ACE9E195D4300000E36EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14E55C5A19734B9C00A957E2 /* Parse.framework */,
+				14E55C5819734B7400A957E2 /* SystemConfiguration.framework */,
+				14E55C5619734B6F00A957E2 /* StoreKit.framework */,
+				14E55C5419734B5A00A957E2 /* Security.framework */,
+				14E55C5219734B5200A957E2 /* QuartzCore.framework */,
+				14E55C5019734B4800A957E2 /* MobileCoreServices.framework */,
+				14E55C4E19734B4000A957E2 /* libz.dylib */,
+				14E55C4C19734B3700A957E2 /* CoreLocation.framework */,
+				14E55C4A19734B2300A957E2 /* CFNetwork.framework */,
+				14E55C4819734B1B00A957E2 /* AudioToolbox.framework */,
+				14270CCE197346C9003EFDA5 /* Parse.framework */,
 				A87ACE9F195D4300000E36EE /* Foundation.framework */,
 				A87ACEA1195D4300000E36EE /* CoreGraphics.framework */,
 				A87ACEA3195D4300000E36EE /* UIKit.framework */,
@@ -391,6 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
 				INFOPLIST_FILE = "UC Irvine Salary/UC Irvine Salary-Info.plist";
@@ -404,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UC Irvine Salary/UC Irvine Salary-Prefix.pch";
 				INFOPLIST_FILE = "UC Irvine Salary/UC Irvine Salary-Info.plist";
@@ -471,6 +523,7 @@
 				A87ACED3195D4300000E36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A87ACED4195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine SalaryTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +532,7 @@
 				A87ACED6195D4300000E36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

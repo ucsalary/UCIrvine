@@ -5,17 +5,19 @@
 //  Created by Ryan Garcia on 6/26/14.
 //  Copyright (c) 2014 Nyquist Labs. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "UCAppDelegate.h"
+#import "UCViewController.h"
 
 @implementation UCAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Parse setApplicationId:@"BKspTXVkFqRuxWal4wHoUHWapQfpWcUFTl6plo0E"
+                  clientKey:@"on5Pih8Bx4EA8ti35o5i9QVbzqeec37muburYMXM"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

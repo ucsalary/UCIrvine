@@ -7,6 +7,7 @@
 //
 
 #import "UCViewController.h"
+#import <Parse/Parse.h>
 
 @interface UCViewController ()
 
