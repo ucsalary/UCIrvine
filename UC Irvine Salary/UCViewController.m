@@ -27,4 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) search:(NSString *)first and:(NSString *)last{
+    
+}
+
+- (void) getTop10Salaries{
+    
+}
+
+
+
 @end

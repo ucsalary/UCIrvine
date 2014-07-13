@@ -10,4 +10,9 @@
 
 @interface UCViewController : UIViewController
 
+
+
+-(void)getTop10Salaries;
+-(void)search:(NSString *)first and:(NSString *)last;
+
 @end
