@@ -22,6 +22,7 @@
 		A87ACEC4195D4300000E36EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87ACEA3195D4300000E36EE /* UIKit.framework */; };
 		A87ACECC195D4300000E36EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87ACECA195D4300000E36EE /* InfoPlist.strings */; };
 		A87ACECE195D4300000E36EE /* UC_Irvine_SalaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */; };
+		A8B9E161197347B90014674D /* UC Irvine Logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8B9E160197347B90014674D /* UC Irvine Logo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A87ACEC9195D4300000E36EE /* UC Irvine SalaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UC Irvine SalaryTests-Info.plist"; sourceTree = "<group>"; };
 		A87ACECB195D4300000E36EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UC_Irvine_SalaryTests.m; sourceTree = "<group>"; };
+		A8B9E160197347B90014674D /* UC Irvine Logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "UC Irvine Logo.gif"; path = "../../../../Desktop/UC Irvine Data/UC Irvine Logo.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		A87ACEA6195D4300000E36EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8B9E160197347B90014674D /* UC Irvine Logo.gif */,
 				A87ACEA7195D4300000E36EE /* UC Irvine Salary-Info.plist */,
 				A87ACEA8195D4300000E36EE /* InfoPlist.strings */,
 				A87ACEAB195D4300000E36EE /* main.m */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87ACEB6195D4300000E36EE /* Main_iPad.storyboard in Resources */,
+				A8B9E161197347B90014674D /* UC Irvine Logo.gif in Resources */,
 				A87ACEBB195D4300000E36EE /* Images.xcassets in Resources */,
 				A87ACEB3195D4300000E36EE /* Main_iPhone.storyboard in Resources */,
 				A87ACEAA195D4300000E36EE /* InfoPlist.strings in Resources */,
@@ -471,6 +475,7 @@
 				A87ACED3195D4300000E36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A87ACED4195D4300000E36EE /* Build configuration list for PBXNativeTarget "UC Irvine SalaryTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				A87ACED6195D4300000E36EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
