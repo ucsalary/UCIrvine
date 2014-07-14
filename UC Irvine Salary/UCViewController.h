@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UCTableView.h"
 
 @interface UCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *resultView;
+
 
 @end

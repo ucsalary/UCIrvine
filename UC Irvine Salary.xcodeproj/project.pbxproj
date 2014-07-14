@@ -34,6 +34,7 @@
 		A87ACECC195D4300000E36EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A87ACECA195D4300000E36EE /* InfoPlist.strings */; };
 		A87ACECE195D4300000E36EE /* UC_Irvine_SalaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */; };
 		A8B9E16319734D8C0014674D /* UC Irvine Logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8B9E16219734D8C0014674D /* UC Irvine Logo.gif */; };
+		A8B9E166197350450014674D /* UCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B9E165197350450014674D /* UCTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		A87ACECB195D4300000E36EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A87ACECD195D4300000E36EE /* UC_Irvine_SalaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UC_Irvine_SalaryTests.m; sourceTree = "<group>"; };
 		A8B9E16219734D8C0014674D /* UC Irvine Logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "UC Irvine Logo.gif"; sourceTree = "<group>"; };
+		A8B9E164197350450014674D /* UCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCTableView.h; sourceTree = "<group>"; };
+		A8B9E165197350450014674D /* UCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				A87ACEB4195D4300000E36EE /* Main_iPad.storyboard */,
 				A87ACEB7195D4300000E36EE /* UCViewController.h */,
 				A87ACEB8195D4300000E36EE /* UCViewController.m */,
+				A8B9E164197350450014674D /* UCTableView.h */,
+				A8B9E165197350450014674D /* UCTableView.m */,
 				A87ACEBA195D4300000E36EE /* Images.xcassets */,
 				A87ACEA6195D4300000E36EE /* Supporting Files */,
 			);
@@ -305,6 +310,7 @@
 				A87ACEB0195D4300000E36EE /* UCAppDelegate.m in Sources */,
 				A87ACEAC195D4300000E36EE /* main.m in Sources */,
 				A87ACEB9195D4300000E36EE /* UCViewController.m in Sources */,
+				A8B9E166197350450014674D /* UCTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

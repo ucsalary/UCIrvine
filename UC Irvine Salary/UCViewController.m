@@ -18,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    UCTableView *controller = [[UCTableView alloc] init];
+//    self.resultView.delegate = [[UINavigationController alloc] initWithRootViewController:controller];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
