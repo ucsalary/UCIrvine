@@ -13,4 +13,9 @@
 @property (weak, nonatomic) IBOutlet UITableView *resultView;
 
 
+
+
+-(void)getTop10Salaries;
+-(void)search:(NSString *)first and:(NSString *)last;
+
 @end
