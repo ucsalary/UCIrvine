@@ -20,10 +20,10 @@
         self.parseClassName = @"Salaries";
         
         // The key of the PFObject to display in the label of the default cell style
-        self.textKey = @"YEAR";
+        self.textKey = @"NAME";
         
         // The title for this table in the Navigation Controller.
-        self.title = @"Salaries";
+        self.title = @"Results";
         
         // Whether the built-in pull-to-refresh is enabled
         self.pullToRefreshEnabled = YES;
@@ -135,8 +135,8 @@
     }
     
     // Configure the cell
-    cell.textLabel.text = [object objectForKey:@"text"];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"Priority: %@", [object objectForKey:@"priority"]];
+    cell.textLabel.text = [object objectForKey:@"NAME"];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"Gross Salary: %@", [object objectForKey:@"GROSS"]];
     
     return cell;
 }

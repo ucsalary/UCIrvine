@@ -13,8 +13,7 @@
 @implementation UCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Parse setApplicationId:@"BKspTXVkFqRuxWal4wHoUHWapQfpWcUFTl6plo0E"
-                  clientKey:@"on5Pih8Bx4EA8ti35o5i9QVbzqeec37muburYMXM"];
+    [Parse setApplicationId:@"o4pacchtUf7MKVwxAiwsNMZSqmk4j4Fykx0eRSJ2" clientKey:@"E6C2tlTAM0qbw2ppSoaqQECm7suLHfj2MF8sPUfQ"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     UCTableView *controller = [[UCTableView alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
